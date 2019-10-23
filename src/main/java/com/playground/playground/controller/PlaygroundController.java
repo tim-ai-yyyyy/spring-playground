@@ -10,4 +10,9 @@ public class PlaygroundController {
         return "Hello from Spring!";
     }
 
+    @GetMapping("/math/pi")
+    public String mathPi(){
+        return "3.3.141592653589793";
+    }
+
 }
